@@ -2,6 +2,10 @@
     "name" : "Game::Crypt",
     "version" : "0.2.2",
     "description" : "An adventure game.",
+    "provides" : {
+        "Game::Crypt" : "lib/Game/Crypt.pm",
+        "Game::Hanoi" : "lib/Game/Hanoi.pm"
+    },
     "author" : "Carl Mäsak",
     "depends" : ["Adventure::Engine"],
     "source-url" : "git://github.com/masak/crypt.git"
